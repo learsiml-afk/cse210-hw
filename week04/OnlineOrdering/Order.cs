@@ -25,7 +25,6 @@ class Order
             total += product.GetTotalCost();
         }
 
-        // One-time shipping cost
         if (_customer.IsInUSA())
         {
             total += 5;

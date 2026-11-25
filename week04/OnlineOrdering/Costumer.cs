@@ -1,7 +1,7 @@
 class Customer
 {
     private string _name;
-    private Address _address;   // an object inside an object
+    private Address _address;   
 
     public Customer(string name, Address address)
     {
@@ -21,6 +21,6 @@ class Customer
 
     public bool IsInUSA()
     {
-        return _address.IsInUSA();   // asks the Address, as the hint says
+        return _address.IsInUSA();   
     }
 }
